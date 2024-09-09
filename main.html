@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="timeDisplay">
+            <span class="min">00</span>
+            <span>:</span>
+            <span class="sec">00</span>
+        </div>
+        <h2 class="heading" style="margin-left: 66px;" id="write_area">SESSION 
+            <!-- <span id="sessionCount">0</span> -->
+        </h2>
+
+        <div id="buttonsBox">
+            <div id="session">
+                <h5>Session Time</h5>
+                <p><span  class="sMinute">00 </span><span>Min</span></p>
+                <div id="btn">
+                    <button id="sessionPlus" >+</button>
+                    <button id="sessionMinus">-</button>
+                </div>             
+                          
+            </div>
+            <div id="break">
+                <h5>Break Time</h5>
+                <p><span class="bMinute">00 </span><span>Min</span></p>
+                <div id="btn">
+                    <button id="breakPlus" >+</button>
+                    <button id="breakMinus">-</button>
+                </div> 
+            </div>
+        </div>
+
+        <div class="bottom">
+            <button id="start">START</button>
+
+            <button id="pouse" style="display: none;">POUSE</button>
+            <button id="resume" style="display: none;">RESUME</button>
+
+            <button id="reset">RESET</button>
+        </div>
+
+
+
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
